@@ -15,6 +15,7 @@ def find_max_value(array)
   array.max{|a,b|  a<=>b}
 end
 
-def find_min_value(array)
+def find_max_value(array)
   # Add your solution here
+  array.min{|a,b|  a<=>b}
 end
