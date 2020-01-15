@@ -12,7 +12,7 @@ end
 
 def find_max_value(array)
   # Add your solution here
-  array.filter{|val| }
+  array.max{|a,b|  a > b}
 end
 
 def find_min_value(array)
